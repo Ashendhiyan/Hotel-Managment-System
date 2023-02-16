@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginPane" prefHeight="616.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LogingFormController">
+   <children>
+      <ImageView fitHeight="640.0" fitWidth="930.0" layoutX="-12.0" layoutY="-1.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/png/large-pool-with-umbrellas-hammocks.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="256.0" layoutY="127.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="420.0" prefWidth="442.0">
+         <children>
+            <ImageView fitHeight="96.0" fitWidth="126.0" layoutX="135.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/png/blue%20Ocean.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="loginName" alignment="BOTTOM_CENTER" layoutX="55.0" layoutY="147.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="29.0" prefWidth="296.0" promptText="USERNAME" style="-fx-background-radius: 45;">
+               <padding>
+                  <Insets left="115.0" />
+               </padding>
+               <font>
+                  <Font name="Bell MT" size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="loginPassword" alignment="BOTTOM_CENTER" layoutX="55.0" layoutY="215.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="29.0" prefWidth="296.0" promptText="PASSWORD" style="-fx-background-radius: 45;">
+               <padding>
+                  <Insets left="115.0" />
+               </padding>
+               <font>
+                  <Font name="Bell MT" size="16.0" />
+               </font>
+            </PasswordField>
+            <ImageView fitHeight="14.0" fitWidth="14.0" layoutX="63.0" layoutY="154.0" mouseTransparent="true" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/png/Log%20User.png" />
+               </image>
+            </ImageView>
+            <Line endX="-100.0" endY="15.0" layoutX="186.0" layoutY="157.0" startX="-100.0" startY="-7.0" styleClass="line" />
+            <ImageView fitHeight="23.0" fitWidth="14.0" layoutX="63.0" layoutY="219.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/png/Lock.png" />
+               </image>
+            </ImageView>
+            <Line endX="-100.0" endY="15.0" layoutX="186.0" layoutY="225.0" startX="-100.0" startY="-7.0" styleClass="line" />
+            <JFXButton buttonType="RAISED" layoutX="135.0" layoutY="275.0" onAction="#userLogin" prefHeight="37.0" prefWidth="137.0" style="-fx-background-color: #636e72;" text="LOGIN" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

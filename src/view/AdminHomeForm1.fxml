@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="616.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AdminHomeForm1Controller">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="941.0" layoutX="-6.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/png/large-pool-with-umbrellas-hammocks.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="2.0" layoutY="-1.0" prefHeight="739.0" prefWidth="286.0">
+         <children>
+            <ToggleButton fx:id="btnDashBoard" layoutX="4.0" layoutY="146.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="55.0" prefWidth="263.0" style="-fx-background-color: #2ecc71;" text="    Dash Board">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnCreateUsers" layoutX="11.0" layoutY="371.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="55.0" prefWidth="265.0" style="-fx-background-color: #2ecc71;" text="      Create Users">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnChangePackages" layoutX="-6.0" layoutY="487.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="55.0" prefWidth="298.0" style="-fx-background-color: #2ecc71;" text="        Change Packages">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnIncomeReport" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="2.0" layoutY="270.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="59.0" prefWidth="271.0" style="-fx-background-color: #2ecc71;" text="Income Report">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnLogOut" layoutX="43.0" layoutY="612.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="57.0" prefWidth="195.0" style="-fx-background-color: #2ecc71;" text="      Log Out">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </ToggleButton>
+            <ImageView fitHeight="73.0" fitWidth="240.0" layoutX="33.0" layoutY="24.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/png/h2%20blue%20Ocean.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="50.0" layoutX="-2.0" layoutY="493.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/png/pacages.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="51.0" layoutX="24.0" layoutY="381.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/png/users.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="41.0" fitWidth="37.0" layoutX="29.0" layoutY="286.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/png/report.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="43.0" layoutX="15.0" layoutY="156.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/png/dashboard.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="admincontext" layoutX="293.0" layoutY="2.0" prefHeight="740.0" prefWidth="643.0" />
+      <Label layoutX="24.0" layoutY="719.0" prefHeight="21.0" prefWidth="260.0" text="Design &amp; Developed By Ashen Dhiyan">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="47.0" fitWidth="39.0" layoutX="56.0" layoutY="623.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/png/log%20out%20b.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

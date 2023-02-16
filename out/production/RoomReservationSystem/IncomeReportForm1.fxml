@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="contextReport" prefHeight="740.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="IncomeReportForm1Controller">
+   <children>
+      <JFXButton fx:id="btnMonthly" layoutX="78.0" layoutY="131.0" onAction="#btnMonthly" prefHeight="64.0" prefWidth="175.0" style="-fx-background-color: #130f40;" text="Monthly" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="28.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnAnnually" layoutX="350.0" layoutY="131.0" onAction="#btnAnnually" prefHeight="64.0" prefWidth="175.0" style="-fx-background-color: #130f40;" text="Annually" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="28.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

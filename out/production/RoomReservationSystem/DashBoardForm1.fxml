@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="740.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DashBoardForm1Controller">
+   <children>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="90.0" layoutX="45.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="153.0">
+         <fill>
+            <LinearGradient endX="0.7285714285714286" endY="0.6047619047619048">
+               <stops>
+                  <Stop color="#2fcc70e5" />
+                  <Stop color="#2fcc70e5" offset="0.5747126436781608" />
+                  <Stop color="#ecf0f1e5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#00000080" height="26.94" offsetY="6.0" radius="12.2275" spread="0.1" width="23.97" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="90.0" layoutX="45.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="153.0">
+         <fill>
+            <LinearGradient endX="0.7952380952380952" endY="0.6476190476190476">
+               <stops>
+                  <Stop color="#edc213e5" />
+                  <Stop color="#edc213e5" offset="0.45210727969348635" />
+                  <Stop color="#636e72e5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#00000080" height="25.46" offsetY="6.0" radius="11.8575" spread="0.1" width="23.97" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="90.0" layoutX="228.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="153.0">
+         <fill>
+            <LinearGradient endX="0.7047619047619048" endY="0.6047619047619048" startX="0.42380952380952386" startY="0.28095238095238095">
+               <stops>
+                  <Stop color="#e74c3ce5" />
+                  <Stop color="#e74c3ce5" offset="0.39846743295019144" />
+                  <Stop color="#2c3e50e5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#00000080" height="24.3425" offsetY="6.0" radius="11.578125" spread="0.1" width="23.97" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="90.0" layoutX="429.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="153.0">
+         <fill>
+            <LinearGradient endX="0.661904761904762" endY="0.4666666666666668" startX="0.3095238095238096" startY="0.16666666666666666">
+               <stops>
+                  <Stop color="#9b59b6e5" />
+                  <Stop color="#9b59b6e5" offset="0.11111111111111097" />
+                  <Stop color="#8e44ad" offset="0.9118773946360152" />
+                  <Stop color="#ed55ebe5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#00000080" height="25.46" offsetY="6.0" radius="11.8575" spread="0.1" width="23.97" />
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="90.0" layoutX="228.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="153.0">
+         <fill>
+            <LinearGradient endX="0.7285714285714286" endY="0.6047619047619048">
+               <stops>
+                  <Stop color="#2fcc70e5" />
+                  <Stop color="#2fcc70e5" offset="0.5747126436781608" />
+                  <Stop color="#f1c40fe5" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow color="#00000080" height="26.94" offsetY="6.0" radius="12.2275" spread="0.1" width="23.97" />
+         </effect>
+      </Rectangle>
+      <Label layoutX="69.0" layoutY="263.0" text="Total Rooms">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="263.0" text="AC Rooms">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="459.0" layoutY="263.0" text="Non Ac Rooms">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="409.0" text="Reserved">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="409.0" text="Available">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="292.0" prefHeight="36.0" prefWidth="44.0" text="25">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="275.0" layoutY="292.0" prefHeight="36.0" prefWidth="44.0" text="15">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="484.0" layoutY="292.0" prefHeight="36.0" prefWidth="44.0" text="10">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="445.0" prefHeight="36.0" prefWidth="44.0" text="17">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="290.0" layoutY="445.0" prefHeight="36.0" prefWidth="44.0" text="8">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="740.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AnnuallyForm1Controller">
+   <children>
+      <Label layoutX="178.0" layoutY="38.0" text="Annually Report">
+         <font>
+            <Font name="Copperplate Gothic Light" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

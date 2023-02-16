@@ -1,0 +1,122 @@
+.root{
+    -fx-background-color: rgba(229, 231, 236, 0.25);
+    -fx-background-radius: 20px;
+}
+.bgGradient{
+    -fx-background-radius: 20px;
+    //-fx-background-color: linear-gradient(to right bottom,#FFFFFF,#8BB1C9);
+    -fx-background-color: linear-gradient(from -120px -100px to 60px 550px, #C7D1D0,#55AAD0);
+}
+
+.line{
+    -fx-stroke-width: 5px;
+    -fx-stroke-line-cap: Round;
+}
+.logBtn{
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to left top,#6C5CE7,#3498DB);
+}
+.toggleBtn{
+    -fx-background-radius: 50px 0px 0px 50px;
+    -fx-background-color: linear-gradient(to right,rgba(46, 204, 113, 0.8), rgba(96, 239, 73, 0.9));
+}
+.toggleBtn:selected{
+    -fx-background-color: linear-gradient(to left top,#3498DB,#6C6CE1);
+    -fx-pref-height: 92.32px;
+    -fx-font-family: "Roboto Black";
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+}
+/*.toggleBtn:selected:focused {
+}*/
+.dashTxt{
+    -fx-font-family: "Roboto";
+    -fx-font-size: 30px;
+}
+.dashNum{
+    -fx-font-family: "Roboto Black";
+    -fx-font-size: 50px;
+}
+.titleTxt{
+    -fx-font-family: "Roboto";
+    -fx-font-size: 36px;
+}
+
+.fieldStyle{
+    -fx-font-size: 20px;
+    -fx-font-family: "Roboto Medium";
+    /*-fx-prompt-text-fill: Black;*/
+}
+.bookBtn{
+    -fx-font-size: 36px;
+    -fx-font-family: "Roboto Black";
+    -fx-text-fill: white;
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to left top,#C0392B,#E74C3C);
+}
+.SearchBtn{
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to right,rgba(46, 204, 113, 0.8),rgba(96, 239, 73, 0.9));
+}
+.yes{
+    -fx-font-size: 28px;
+    -fx-font-family: "Roboto Medium";
+    -fx-text-fill: white;
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to right,rgba(46, 204, 113, 0.8),rgba(96, 239, 73, 0.9));
+}
+.No{
+    -fx-font-size: 28px;
+    -fx-font-family: "Roboto Medium";
+    -fx-text-fill: white;
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to left top,#C0392B,#E74C3C);
+}
+.income{
+    -fx-font-size: 24px;
+    -fx-font-family: "Roboto Medium";
+    -fx-text-fill: white;
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to left top,#3498DB,#6C6CE1);
+}
+.createUser{
+    -fx-font-size: 24px;
+    -fx-font-family: "Roboto Black";
+    -fx-text-fill: white;
+    -fx-background-radius: 15px;
+    -fx-background-color: linear-gradient(to left top,#C0392B,#E74C3C);
+}
+
+
+.table-view{
+    -fx-background-color: rgba(229, 231, 236, 0.25);
+}
+.table-view:focused{
+    -fx-background-color: rgba(229, 231, 236, 0.25);
+}
+
+.table-row-cell:odd{
+    -fx-background-color: rgba(46, 204, 113, 0.5);
+    -fx-bacgroung-insets:0, 1 0 0 0;
+    -fx-padding: 0.0em;
+    -fx-font-size: 16px;
+    -fx-font-family: "Roboto Medium";
+}
+.table-row-cell:even{
+    -fx-background-color: rgba(96, 239, 73, 0.5);
+    -fx-bacgroung-insets:0, 0 0 1 0;
+    -fx-font-family: "Roboto Medium";
+    -fx-font-size: 16px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-family: "Roboto Black";
+    -fx-font-size: 17px;
+    -fx-alignment: CENTER_LEFT;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color: #2ECC71;
+
+}

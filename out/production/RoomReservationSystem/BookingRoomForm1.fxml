@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BookingRoomForm1Controller">
+   <children>
+      <Label layoutX="36.0" layoutY="36.0" prefHeight="45.0" prefWidth="187.0" text="Guest Details">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="36.0" prefHeight="45.0" prefWidth="187.0" text="Room Details">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Line endX="4.0" endY="460.0" layoutX="317.0" layoutY="189.0" startX="4.0" startY="-66.0" />
+      <JFXTextField fx:id="txtFldName" focusColor="#1546da" labelFloat="true" layoutX="22.0" layoutY="181.0" prefHeight="29.0" prefWidth="262.0" promptText="Name :" style="-fx-background-color: #ecf0f1;" unFocusColor="#806c76">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtFldNic" labelFloat="true" layoutX="22.0" layoutY="274.0" prefHeight="29.0" prefWidth="262.0" promptText="NIC Number  :" style="-fx-background-color: #ecf0f1;">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtFldNumber" labelFloat="true" layoutX="22.0" layoutY="363.0" prefHeight="29.0" prefWidth="262.0" promptText="Telephone Number :" style="-fx-background-color: #ecf0f1;">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtFldEmail" layoutX="22.0" layoutY="444.0" prefHeight="29.0" prefWidth="262.0" promptText="Email  :" style="-fx-background-color: #ecf0f1;">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtFldAddress" labelFloat="true" layoutX="22.0" layoutY="526.0" prefHeight="29.0" prefWidth="262.0" promptText="Address  :" style="-fx-background-color: #ecf0f1;">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <JFXComboBox fx:id="cmbRoomType" labelFloat="true" layoutX="366.0" layoutY="183.0" prefHeight="25.0" prefWidth="244.0" promptText="Rooom Type" style="-fx-background-color: #ecf0f1;" />
+      <JFXComboBox fx:id="cmbRoomNumber" labelFloat="true" layoutX="366.0" layoutY="276.0" prefHeight="25.0" prefWidth="244.0" promptText="Rooom Number" style="-fx-background-color: #ecf0f1;" />
+      <JFXComboBox fx:id="cmbMealType" layoutX="366.0" layoutY="365.0" prefHeight="25.0" prefWidth="244.0" promptText="Meal Type" style="-fx-background-color: #ecf0f1;" />
+      <JFXDatePicker fx:id="dtCheackIn" layoutX="366.0" layoutY="446.0" prefHeight="25.0" prefWidth="244.0" promptText="Check In" style="-fx-background-color: #ecf0f1;" />
+      <JFXDatePicker fx:id="dtCheckOut" layoutX="366.0" layoutY="528.0" prefHeight="25.0" prefWidth="244.0" promptText="Check Out" style="-fx-background-color: #ecf0f1;" />
+      <ToggleButton layoutX="401.0" layoutY="631.0" mnemonicParsing="false" onAction="#btnBookNow" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #d63031;" text="BOOK NOW">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </ToggleButton>
+   </children>
+</AnchorPane>

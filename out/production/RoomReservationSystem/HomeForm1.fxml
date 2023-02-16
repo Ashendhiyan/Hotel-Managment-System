@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashBoardPane" prefHeight="616.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeForm1Controller">
+   <children>
+      <ImageView fitHeight="611.0" fitWidth="921.0" layoutX="-2.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/png/large-pool-with-umbrellas-hammocks.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <AnchorPane layoutX="-3.0" layoutY="1.0" prefHeight="739.0" prefWidth="286.0">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="240.0" layoutX="32.0" layoutY="23.0" pickOnBounds="true">
+               <image>
+                  <Image url="@assets/png/h2%20blue%20Ocean.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="709.0" prefHeight="21.0" prefWidth="260.0" text="Design &amp; Developed By Ashen Dhiyan">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ToggleButton fx:id="btnDashBoard" layoutX="21.0" layoutY="141.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="55.0" prefWidth="263.0" style="-fx-background-color: #2ecc71;" text="    Dash Board">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnBookingRoom" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="21.0" layoutY="260.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="59.0" prefWidth="262.0" style="-fx-background-color: #2ecc71;" text="  Booking Room">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnCustomerDetails" layoutX="21.0" layoutY="367.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="55.0" prefWidth="265.0" style="-fx-background-color: #2ecc71;" text="       Customer Details">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnPackages" layoutX="22.0" layoutY="485.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="55.0" prefWidth="263.0" style="-fx-background-color: #2ecc71;" text="  Packages">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </ToggleButton>
+            <ToggleButton fx:id="btnLogOut" layoutX="49.0" layoutY="604.0" mnemonicParsing="false" onAction="#toggleButton" prefHeight="57.0" prefWidth="195.0" style="-fx-background-color: #2ecc71;" text="      Log Out">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </ToggleButton>
+            <ImageView fitHeight="55.0" fitWidth="43.0" layoutX="33.0" layoutY="145.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/png/dashboard.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="46.0" layoutX="29.0" layoutY="264.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/png/Booking.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="43.0" layoutX="29.0" layoutY="376.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/png/cus.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="52.0" layoutX="36.0" layoutY="491.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/png/pacages.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="47.0" fitWidth="39.0" layoutX="58.0" layoutY="613.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/png/log%20out%20b.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="context" layoutX="270.0" layoutY="-13.0" prefHeight="740.0" prefWidth="643.0" />
+   </children>
+</AnchorPane>
